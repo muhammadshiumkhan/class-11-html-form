@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>form</title>
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+	<div class="wrapper">
+
+
+<form action="upload.php" method="post" enctype="multipart/form-data">
+
+
+
+
+
+	<label for="first_name">First Name: </label> <br>
+	<input type="text" placeholder="Type your first name" name="first_name" id="first_name" class="first_name">
+<br><br>
+<label for="last_name">Last Name: </label> <br>
+	<input type="text" placeholder="Type your last name" name="last_name" id="last_name" class="last_name">
+
+<br><br>
+<label for="dob">Date of Birth:</label><br>
+<input type="date" id="dob" name="dob">
+
+<br><br>
+<label for="age">Age:</label><br>
+<input type="number" id="age" name="age" min="1" max="100" ><br><br>
+
+
+
+<label for="country">Country</label><br>
+<select name="country" id="country">
+	<option value="">Select Country</option>
+<option value="usa">United States of America</option>
+<option value="uk">United Kingdom</option>
+<option value="uae">United Arab Emirates</option>
+<option value="ca">Canada</option>
+
+</select>
+
+
+
+<br><br>
+<label for="interest">Interest: </label> <br>
+<label>
+
+
+<input type="checkbox" name="interest[]" value="fitness" id="fitness">  <span>Fitness</span>
+	</label> <br>
+<label>
+
+	<input type="checkbox" name="interest[]" value="health" id="health"> <span>Health</span>
+	</label><br>
+<label>
+	<input type="checkbox" name="interest[]" value=
+	"technology" id="technology"> <span>Technology</span>
+	</label>
+
+
+
+<br><br>
+<label for="email">Email Address: </label> <br>
+	<input type="email" placeholder="Type your Email Address" name="email" id="email" class="email">
+
+<br><br>
+<label for="password">Password: </label> <br>
+	<input type="password" placeholder="Type your Password" name="password" id="password" class="password">
+
+
+<br><br>
+<label for="gender">Gender: </label> <br>
+<label>
+
+
+
+
+
+
+
+
+	
+	<input type="radio" name="gender" value="Male" id="male">  <span>Male</span>
+	</label>
+<label>
+
+	<input type="radio" name="gender" value="Female" id="female"> <span>Female</span>
+	</label>
+<label>
+	<input type="radio" name="gender" value="Other" id="other"> <span>Other</span>
+	</label>
+
+	
+<br><br>
+
+<label for="message">Your Message:</label> <br>
+<textarea  cols="60" rows="10" placeholder="Type your message here" name="message" id="message" class="message"></textarea>
+
+
+
+<br><br>
+<label for="photo">Upload Photo:</label><br>
+<input type="file" id="photo" name="photo">	<br>
+
+
+
+<br>
+<label>
+	<input type="checkbox" name="subscribe" value="yes">Sign up for updates
+</label> <br> <br>
+
+
+
+
+
+<button type="submit"> Submit </button>
+</form>
+</div>
+
+
+
+
+</body>
+</html>
