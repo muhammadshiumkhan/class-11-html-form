@@ -1,3 +1,3 @@
 # class-11-html-form
-Project 8 practice-1 
+Project 8 html-form
 live preview https://muhammadshiumkhan.github.io/class-11-html-form/
